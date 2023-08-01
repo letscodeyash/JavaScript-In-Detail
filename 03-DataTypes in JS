@@ -1,0 +1,23 @@
+<script>
+        //primitive data types 
+
+        let a=null;
+        let b=90;
+        let c=BigInt("567");
+        let d=true;
+        let e="yash khedkar";
+        let f=Symbol("Im yash");
+        let g=undefined;
+        console.log(a,b,c,d,e,f,g)
+        console.log(typeof b)
+
+        //objects in js
+
+        const x={
+            "name":"yash",
+            "age":20,
+            "king":true
+        }
+    
+        console.log(x["name"])
+    </script>
