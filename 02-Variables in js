@@ -1,0 +1,46 @@
+//write your JS here 
+// printing of the javascript
+console.log('Namste Duniya');
+console.log("whats app yash");
+console.log("Startting the JS");
+
+<script>
+     //variables writing 
+    //dynamic typing bcoz not require to identify the data type 
+1) let 2) const 3) var 
+//use more const and let
+//let is for scope spcific
+
+    var a=10;
+    var b=20;
+    var c="yash";
+    d = 50;
+
+    //for printing syntax 
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log(d);
+
+    // operators in javascript 
+    // operand = entities on which operators operates
+    // in 3+4 '+' is a operator and '3,4' are operands 
+
+    // 1) unary operators - it has single operand  ex. (d=-d)
+    d = -d;
+    console.log(d);
+
+    // 2) binary operators - it has two operands ex.(d=d+10)
+    d=50+50;
+    console.log(d);
+
+    // arithmetic operations 
+
+    var num1= 10;
+    var num2= 20;
+
+    console.log("the value of num1 + num2 is "+(num1 + num2));
+    console.log("the value of num1 - num2 is "+(num1 - num2));
+    console.log("the value of num1 * num2 is "+(num1 * num2));
+    console.log("the value of num1 / num2 is "+(num1 / num2));
+</script>
