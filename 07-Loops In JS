@@ -1,0 +1,53 @@
+ <script> 
+    //LOOPS FOR ARRAY 
+
+        let names=['yash','ramesh','suresh','mahesh'];
+        // for(let i=0;i<name.length;i++)
+        // {
+        //     console.log(names[index]);
+        // }
+        // for (let index = 0; index < names.length; index++) {
+        //     console.log(names[index]);
+        // }
+
+        //modern for loop for each loop
+        // names.forEach(function f(element)
+        // {
+        //     console.log("hello friends, "+ element + " to modern javascript");
+        // });
+
+        //another modern loop for of loop
+        // for (const element of names) {
+        //     console.log("hello friends, "+ element + " to modern javascript");
+        // }
+
+
+        //LOOPS FOR OBJECT
+
+        let person={
+            name:"yash",
+            age:20,
+            salary:30000,
+            month:"april",
+        }
+
+        // we use for in loop to iterate the object
+        for (key in person) {
+            console.log(`the ${key} of person is ${person[key]}`);
+            }
+
+
+        //USE OF WHILE AND DO WHILE LOOP
+
+        let a=5;
+        // while(a<4){
+        //     console.log(`${a} is less than 4`);
+        //     a++;
+        // }
+
+        //do while loop
+        do{
+            console.log(`${a} is less than 4`);
+            a++;
+        }while(a<4);
+    </script>
