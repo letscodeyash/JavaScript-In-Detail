@@ -1,0 +1,55 @@
+<h1>We are studing about an array</h1>
+    <script>
+
+        // primitive data types 
+        // let var1 = 30;
+        // let var2 = 'yash';
+        // let var3 = true;
+        // let var4 = null;
+        // let var5 = undefined;
+
+        // primitive ke bina kuch bhi banao vo object hota hai 
+        //defining object 
+        // object stores the key value pair 
+
+        let student = { 
+            name : 'yash khedkar',
+            roll_no : 62,
+            div : 'B',
+            SGPA : 7.64,
+            // to  acces above student.key 
+            //if you want space in between the key name them below syntax
+            "age 1" : 20,
+            // to acces this  use student['age 1']
+        }
+        console.log(student);
+
+        // let random = [1,3,2,4,'yash',null, undefined];
+
+        // // another method to declare an array 
+        // // let random =  new array(1,2,4,'yash',null);
+
+        // console.log(random.length);
+        // console.log(random[2]);
+        // random = random.sort();
+        // console.log(random);
+
+        // random.push('lets go');
+        // console.log(random);
+
+        let marks_class_12 = [91, 82, 63, 84, false, "Not Present"]
+        console.log(marks_class_12[0])
+        console.log(marks_class_12[1])
+        console.log(marks_class_12[2])
+        console.log(marks_class_12[3])
+        console.log(marks_class_12[4])
+        console.log(marks_class_12[5])
+        console.log(marks_class_12[6]) // Will be undefined because index 6 does not exist
+        console.log("The length of marks_class_12 is", marks_class_12.length)
+        marks_class_12[6] = 89 // Adding a new value to the array
+        marks_class_12[0] = 96 // Changing the value of an array
+        console.log(marks_class_12)
+        console.log(typeof marks_class_12)
+
+
+    </script>
