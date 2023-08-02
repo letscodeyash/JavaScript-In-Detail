@@ -1,0 +1,65 @@
+<script>
+        var str1 = "im yash khedkar ";
+        str1 = 'this is pratik';
+        console.log(str1);
+
+        // highly recommend to use let instead of var 
+        let a ='u';
+        console.log(a);
+
+        // if we declare variable inside the function or block then scope of that VAR ALways just for inside the function
+        {
+            a= "ilu";
+            console.log(a);
+        }
+
+        const x = 'this is constant value ';
+        //x='im yash '; //throws an error
+        console.log(x);
+
+        // if-else 
+
+        let marks = 39;
+        if (marks>=40) {
+            console.log('your in top list')
+        }
+        else if(marks>=30 && marks <= 39 ){
+            console.log('you are in second list of the  class');
+        }
+        else if(marks >= 20 && Marks < 29)
+        {
+            console.log('your in last list of the class ');
+        }
+        else{
+            console.log('you are fail this examination ');
+        }
+
+        //switch cases 
+
+        const attend = 100;
+        switch (attend) {
+            case 30:
+                console.log('your attendance is too low ')
+                break;
+            
+            case 50:
+                console.log('your attendance is low ')
+                break;
+
+            case 60:
+                console.log('your attendace is ok ')
+                break;
+
+            case 80:
+                console.log('your attendance is good ')
+                break;
+
+            case 100:
+                console.log("your attendnce is too good ")
+                break;
+        
+            default:
+                console.log('meet to the respective class teacher ')
+                break;
+        }
+    </script>
