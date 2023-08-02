@@ -1,0 +1,44 @@
+ <script>
+        var str="this is a string ";
+        console.log(str);
+
+        // to find the first occurence of the word 
+        // indexOf() function used to locate index of any string 
+        var position = str.indexOf('is');
+        console.log(position);
+
+        // to get last occurence of the of the substring  
+        position = str.lastIndexOf('is');
+        console.log(position);
+
+        // to get substring from the a string we can use slice() function 
+        var substr = str.slice(1,7);
+        console.log(substr);
+       
+        //var substr = str.substring(1,7); 
+        var substr1 = str.substr(1,3);
+        console.log(substr1);
+
+        // to replace the string from the particular string 
+        var replaced = str.replace('this', 'miss');
+        console.log(str)
+        console.log(replaced);
+
+        // to uppercase & Lowercase the string 
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+
+        // to addition of the two strings 
+        var newstr = str.concat('new string');
+        console.log(newstr);
+
+        // if white spaces present in the string then we cam remove using trim function 
+        var strwhitespace = "     this is yash khedkar    ";
+        console.log(strwhitespace);
+        console.log(strwhitespace.trim());
+
+        // from this we can find character at particular 
+        var char2 = str.charAt(2);
+        // var char2 = str.charCodeAt(2);
+        console.log(char2);
+    </script>
