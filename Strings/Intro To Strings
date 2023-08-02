@@ -1,0 +1,30 @@
+<script>
+        var string =  "this ";
+        var string1 = 'thi"s';
+        var name = 'yash';
+        var clg = 'DIT';
+
+        // here we use the template literals (``)
+        // $ is used here to pick the particular string 
+        // the main benefit is we can use both single & double quotes inside the string 
+        var temp = `${name} is a 'good' boy and he "learn" in ${clg} college`;
+
+        console.log(string);
+        console.log(string1);
+        console.log(name);
+        console.log(clg);
+        console.log(temp);
+
+        var len = name.length;
+        var len1 = clg.length;
+        console.log(`length of the name is ${len}`);
+        console.log(`length of the college is ${len1}`);
+
+        // \n is for new line or called as escape character 
+        // \t is for space like a tab 
+        console.log('Namste Duniyaa \nhello yash \t kasa ky yash')
+
+        // var y = new string("this");
+        // console.log(y);
+        // document.getElementById('content').innerHTML = '<h3> this is yash kingdom </h3>'
+    </script>
